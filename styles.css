@@ -1,0 +1,105 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2rem;
+	font-family:'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+	
+}
+
+li  {
+	list-style-type: none;
+	
+}
+
+/*navigation header*/
+
+#container-header{
+
+	border: black solid;
+	display: flex;
+    justify-content: space-between;
+}
+
+.reservia-img{
+
+	border: solid red;
+	width: 161PX;
+	height: 75PX;
+
+}
+
+#navigation {
+	border: solid orange;
+	display: flex;
+	height: 120PX;
+	
+	
+
+
+
+
+}
+
+.nav-list{
+	border: solid green;
+	display: flex;
+	width: auto;
+	height:120PX;
+	align-items:flex-end;
+
+
+
+	
+}
+
+.lien{
+	display:flex;
+    justify-content: center;
+	color: #0065FC;
+	border: solid red;
+	width: 200px;
+	height: 120PX;
+	align-items: center;
+	margin-right: 70PX;
+	
+	
+}
+
+.Hébergements :visited{
+
+	color: #0065FC
+
+
+}
+
+.lien:hover {
+	  background: #deebff;
+      color: #0065fc;
+      border-top: solid 5px #0065FC;
+      font-weight:bold;
+
+}
+
+
+.Activités :visited{
+     color:black;
+}
+
+
+.inscription {
+	display: flex;
+	border: solid blue;
+	margin-right:70PX;
+	color: #0065FC;
+	font-weight:600;
+	align-items: center;
+	
+
+}
