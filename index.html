@@ -10,37 +10,57 @@
 	<title>RESERVIA</title>
 </head>
 <body>
-<!--navigation header-->
-  	<header>
+<!--navigation-->
+<header>
   		<div id="container-header">
   		   <a href="#"><img class= "reservia-img" src="projet2/images/logo/Reservia.png" alt="logo-reservia"></a>
   		     <div id="navigation"> 
-  		     <nav>				
-  				<ul class="nav-list">
-  					<li class="lien Hébergements"><a href="#Hébergements-ancre">Hébergements</a></li>
-  					<li class="lien Activités"><a href="#Activités-ancre">Activités</a></li>
-  				</ul> 
-  			 </nav>
-  					<a href="#" class="inscription">S'inscrire</a>
+  		        <nav>				
+  				    <ul class="nav-list">
+  					   <li class="lien Hébergements"><a href="#Hébergements-ancre">Hébergements</a></li>
+  					   <li class="lien Activités"><a href="#Activités-ancre">Activités</a></li>
+  				    </ul> 
+  			    </nav>
+  					 <a href="#" class="inscription">S'inscrire</a>
   			 </div>
-  		</div>
-  	</header>
-  	<!--section de recherche-->
-  	<section id="formulaire-recherche">
-  		<h1 class="titre section-recherche">Trouvez votre hébergement pour des vacances de rêve</h1>
-  		<h2 class="titre2 section-recherche">En plein centre ville ou en pleine nature</h2>
-  		<div id="formulaire recherche">
-  			<form method="post" action="#">
-  				<p class="formulaire">
-  					<label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
-  					<input  type="search" name="recherche"  id="recherche" placeholder ="Marseille,France">
-  					<input class= "bouton"type="submit" name="recherche" value="Rechercher">
-  				</p>
-  				
-
-  			</form>
-
-  		</div>
-  	</section>
+  		</div> 
+<!--barre de recherche--> 	
+     <div id="formulaire-recherche">
+  		  <h1 >Trouvez votre hébergement pour des vacances de rêve</h1>
+  		  <h2 class="titre2 section-recherche">En plein centre ville ou en pleine nature</h2>
+  	         <div id="formulaire">
+  		         <form method="post" action="#">
+  				    <p class="formulaire">
+  					   <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
+  					   <input  type="search" name="recherche"  id="recherche" placeholder ="Marseille,France">
+  					   <input class= "bouton"type="submit" name="recherche" value="Rechercher">
+  				    </p>
+  		         </form>
+  		     </div>
+     </div>
+</header>
+<!--les filtres-->
+  	<section id="section-filtres">	
+  	   <h2>Filtres</h2>
+  	     <div id="menu-filtre">
+  		    <div class="bouton-filtre">
+  		        <a href="#"><i class="fas fa-money-bill-wave" id="filtre"></i></a> <p id="thèmes">&#201conomique</p>   
+  		    </div>
+  		    <div class="bouton-filtre">
+  		        <a href="#"><i class="fas fa-child" id="filtre"></i></a><p id="thèmes">Familial</p>
+  		    </div>
+  		    <div class="bouton-filtre">
+  		        <a href="#"><i class="fas fa-heart" id="filtre"></i></a>  <p id="thèmes">Romantique</p>
+            </div>
+  		    <div class="bouton-filtre">
+  		   <a href="#"><i class="fas fa-dog" id="filtre"></i></a><p id="thèmes">Animaux autorisés</p></div> 
+  		</div>		
+  		   
+  </section> 
+  <section id="text-information">		    
+  	   
+  			<i class="fas fa-info" id="info"></i><p>Plus de 500 logements disponibles dans cette ville</p>
+  </section> 	
+ 
 </body>
 </html>

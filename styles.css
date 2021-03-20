@@ -1,10 +1,14 @@
 
 
-*{
+body{
+
 	margin: 0px;
 	padding: 0px;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	font-family:'Raleway', sans-serif;
+}
+h1{
+	margin: 10PX;
 }
 
 a {
@@ -15,11 +19,13 @@ li  {
 	list-style-type: none;	
 }
 
-/*navigation header*/
+
+/*navigation*/
 
 #container-header{
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
+    
 }
 
 .reservia-img{
@@ -51,7 +57,7 @@ li  {
 
 .Hébergements :visited{
 
-	color: #0065FC
+	color: #0065FC;
 }
 
 .lien:hover {
@@ -73,26 +79,27 @@ li  {
 	align-items: center;
 }
 
-/*section de recherche*/
+/*barre de recherche*/
 #formulaire-recherche{
-
-	border: green solid;
 	width: auto;
 	height: auto;
+	margin-left: 20px;
+	
+	
 }
 
-.titre{
-	margin: 10PX;
-}
+
 .titre2{
 	font-size:0.6em;
-	margin: 5PX;
+	margin-left: 20px;
+	
 }
 
 .formulaire{
 	display:flex;
 	width: auto;
 	height:40PX;
+	margin-left: 20px;
 }
 
 label{
@@ -110,6 +117,10 @@ input{
 	border: none;
 
 }
+input:hover {
+	cursor: pointer;
+
+}
 #recherche::placeholder{
 	color:black;
 }
@@ -119,4 +130,84 @@ input{
 	color: white;
 	border-radius: 0 10PX 10PX 0;
 	width: 160PX;
+}
+
+/*les filtres*/
+
+#section-filtres{
+	display:flex;
+	align-items: center;
+	width: auto;
+	height: 80px;
+	margin:30px 0 0 20px;
+}
+
+#menu-filtre{
+	display: flex;
+	justify-content: space-around;
+	width: 55%;
+	height:50px;
+
+	
+
+}
+
+.bouton-filtre{
+	border: solid #F2F2F2;
+	border-left: 0px;
+	display: flex;
+	align-items: center;
+	border-radius: 50PX ;
+	width:25%;
+	margin-left: 30PX;
+
+
+}
+
+ #thèmes{
+	font-weight: bold;
+	display: block;
+	margin: auto;
+}
+
+#filtre{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid #deebff;
+	border-radius: 50%;
+	width: 50PX;
+	height: 50PX;
+	color: #0065FC;
+	background-color: #deebff;
+}
+
+#filtre:hover{
+border-radius: 50px;
+background: #deebff;
+box-shadow: inset 6px 6px 11px #c8d4e6,
+            inset -6px -6px 11px #f4ffff;
+}
+
+#text-information{
+	display: flex;
+	align-items: center;
+
+}
+#text-information p{
+	font-size: 1em;
+	margin-left: 20PX;
+	text-align: justify;
+}
+
+#info{
+	color: #0065FC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:solid #F2F2F2;
+	background:white;margin-left: 20PX;
 }
