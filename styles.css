@@ -5,11 +5,12 @@ body{
 	padding: 0px;
 	font-family:'Raleway', sans-serif;
 	
+	 
+	
 
 }
-html {
-  font-size:80%;
-}
+
+
 
 a {
 	text-decoration: none;
@@ -20,69 +21,90 @@ li  {
 	list-style-type: none;	
 }
 
-img{
-	 object-fit: cover;
-	 width:100%;
-}
-main{
-	margin:0 10px;
-	width: 98%;	
+#bloc-page{
+	margin: 10px;
+	border:solid black;
+	
+
+
 }
 
-header{
-	margin:0 10px;
-	width: 98%;	
-}
-p{
-	font-size: 1rem;
-}
 
 
 /*navigation*/
-#titre-nav{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-}
+
+
 
 .reservia-img{
-	width: 50%;
-	height: 7vh;
-	padding-top:20px;	
+
+		
+	position: absolute;
+	margin-left: 0;
+	width:15%;
+	min-width: 100px;
+	
 }
 
 #navigation {
-	font-size: 1.5rem;
+	font-size: 1em;
 	width: 100%;
+	min-width: 340px;
+	justify-content: flex-end;
 	display: flex;
+	
+
 }
 nav{
-	width: 100%;
+
+	width: 20%;
+	min-width: 347px;
+	margin: 0;
+	padding: 0;
 	display: flex;
-	justify-content: flex-end;
+	justify-content:space-between;
+	
+
 }
 
-ul{
+.menu-nav{
+	
+	padding: 0;
 	display: flex;
-	width: 50%;
-	justify-content: space-between;
+	width:20%;
+	min-width: 349px;
+	
 }
 
-.menu{
-	display:flex;
+.lien2{
+
+	
+}
+.lien{
+	display: flex;
     justify-content: center;
     align-items: center;
 	color: #0065FC;
-	width:100%;
-	height: 10vh;
-	padding-top: 10px;	   
+	height: 6VH;
+}	
+	
+.hébergements{
+	width: 48%;
+
+	
+	
 }
+.activités{
+
+width: 51%;
+}
+		   
+
 
 .Hébergements, .inscription :visited{
 	color: #0065FC;
 }
 
-.lien:hover {
+.lien2:hover {
 	  background: #deebff;
       color: #0065fc;
       border-top: solid 5px #0065FC;
@@ -91,74 +113,157 @@ ul{
 }
 
 .inscription  {
+	height:auto;
+display: flex;
+
+	justify-content: center;
+	align-items: center;
 	color: #0065FC;
-	font-weight:600;	
+	font-weight:600;
+	
+   
 }
-/*barre de recherche*/
-.formulaire{
+/*section recherche filtres*/
+#recherche-filtres{border:solid black;
 	display:flex;
-	width: 80%;
-	height:6vh;
+	flex-direction: column;	
+	height: auto;
+	width: 90%;
+    min-width: 340px;
+	flex-wrap: wrap;
+	font-size:10px;
+	
+
 }
+
+#formulaire {
+
+	height:200PX;
+	min-height:60px;
+	width: 100%;
+
+
+	
+}
+
+#formulaire h1 {
+
+	width:100%;
+	font-size:2.5em;
+	
+}
+
+#formulaire p{
+	font-size: 1.7em;
+}
+
+/*barre de recherche*/
+form{
+	width: 50%;
+	height:3VW;
+	min-height:60px;
+	display:flex;
+	border:solid black;
+	
+}
+
 
 label{
 	display: flex;
 	border-radius: 10px 0 0 10px;
-	width: 4%;
 	background:#F2F2F2; 
 	justify-content: center;
 	align-items: center;
 	color: black;
+	width:4%;
+	min-width: 50px;
+	font-size: 2em;
+	
+ 	
 }
 
 input{
-	border:solid 1px #F2F2F2;	
+	border:solid 1px #F2F2F2;
+	width:30%;
+	min-width:200px;
+
+
 }
 
 input:hover {
 	cursor:pointer;
 	color:black;
+
 }
+
 
 #recherche::placeholder{
 	color:black;
 	font-weight: bold;
 }
 
-.bouton {
+.loupe {
 	background:#0065FC; 
 	color: white;
 	border-radius: 0 10px 10px 0;
-	width:10%;
-}
-/*les filtres*/
-#section-filtres{
-	display:flex;
-	flex-direction: column;	
+	border-style: none;
+	width:15%;
+	min-width: 60px;
+	
 }
 
+.loupe:before {
+    content: "Rechercher";
+} 
+/*les filtres*/
+
+#menu-filtre h2{
+margin-top: 10px;
+font-size: 3em;
+
+
+}
 #menu-filtre{
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
-	height:50px;
+	width: 100%;
+	
+	height: auto;
+	
+	flex-wrap: wrap;
+	font-size: 10px;
+
+
+
+	
+	
 }
 
 .filtres{
+
 	border: solid #F2F2F2;
 	border-left:0px;
 	display: flex;
 	align-items: center;
 	border-radius:50px;
-	height:40px;
+	height:4rem;
 	padding-right:20px;
 	transition: transform .1s;
+	width:auto;
+	
+	font-size: 1.7em;
+
+	
 }
 
  .thèmes{
 	font-weight: bold;
 	margin: auto;
-	font-size:1.5em;
+	
+}
+
+.flexshrink{
+	flex-shrink: 0;
 }
 
  .filtres i {
@@ -167,8 +272,10 @@ input:hover {
 	align-items: center;
 	border: solid #deebff;
 	border-radius:50%;
-	width:40px;
-	height: 40px;
+	width:3rem;
+	min-width: 4rem;
+	height: 3rem;
+	min-height: 4rem;
 	color: #0065FC;
 	background-color: #deebff;
 	margin-right:10px;
@@ -181,30 +288,47 @@ input:hover {
 #texte-information{
 	display: flex;
 	align-items:center;
+	width: 100%;
+	
+	font-size:10px;
 }
 
 #texte-information p{
-	font-size: 1.5em;
-	margin-left:5PX;	
+	margin-left:5PX;
+	
+	width: 100%;	
+	font-size: 1.7em;
+	
 }
 
 #texte-information i{
 	color: #0065FC;
 	display: flex;
+	font-size:1.5em;
 	justify-content:center;
 	align-items:center; 
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	
+	height: 30px;
 	border-radius: 50%;
 	border:solid #F2F2F2;
 	background:white;	
 }
 /*hébergements-populaires*/
 #hébergement-populaires{
+	width: 100%;
 	display:flex;
 	justify-content: space-between;
-	width:100%;
-	height:80vh;
+	height: auto;
+
+
+
+
+	
+
+	
+	
+	
 }
 /*hébergements*/
 span{
@@ -212,11 +336,16 @@ span{
 }
 
 #conteneur-hébergements{
+	
 	display: flex;
 	flex-direction: column;
-	width:70%;
 	border-radius:20PX;
 	background-color:#F2F2F2;
+	margin:0 20px 0 0;
+	 min-width: 350px;
+	
+
+
 }
 
 #conteneur-hébergements>h2{
@@ -227,27 +356,28 @@ span{
 .partie-1{
 	display: flex;
 	justify-content: space-around;
-	width:100%;
-	min-width: 10%;	
-	height: 35vh;
+	
+	
+	
 }
 
 .partie-2{
 	display: flex;
 	justify-content: space-around;
-	width:100%;
-	min-width: 10%;	
-	height: 35vh;
+	
+	
+	
 }
 
 .image{
 	padding: 10px;
 	background-color: white;
 	border-radius: 30PX;
-	width:23%;
-	height:28VH;
+	margin: 30px;
+
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
-    transition: transform .4s;	
+    transition: transform .4s;
+
 }
 .image:hover{
 	transform:scale(1.10);
@@ -277,35 +407,38 @@ h3{
 	margin-left: 30px;
 }
 /*section populaire*/
-#aside{
+aside{
     display:flex;
     flex-direction: column;
-	width:25%;
-    align-items:center;
 	background-color:#F2F2F2;
 	border-radius:20px;	
+	justify-content: space-around;
+	font-size: 10px;
+	padding: 0 30px;
+font-size: 10px;
+min-height: 1000px;
+
+	
 }
 
-#populaires{
-	display: flex;
-	flex-direction:column;
-	justify-content: space-between;
-	margin:0px 10px 10px 10px;
-	width:80%;
-	align-items: center;
-	align-content: center;
-	height:80VH;
-}
+
+
 
 .présentation{	
-	display: flex;
+    display: flex;
 	transition: transform .4s;
-	width:95%;
-	height:16VH;
 	border-radius:30px;
 	background-color: white;
 	padding:10px;
 	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%)
+	justify-content:space-around;
+	min-width: 280px;
+	min-height: 150px;
+
+
+
+
+	
 
 }
 
@@ -316,33 +449,41 @@ h3{
 .description{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-left:15px;	
+    margin-left: 10PX;
+	font-size: 1.3em;
+
+	
+		
 }
 
 .présentation img{
-	width:50%;
-	height: 16vh;
+	width:12rem;
+	object-fit: cover;
+	height: 21vh;
+	min-height: 230PX;
 	border-radius:20px 0 0 20px;
+	min-width: 100px;
 }
 
-#aside>h2{
+
+aside>h2{
 	font-size: 2rem;	
-	width: 95%;
+	width: 100%;
 	display:flex;
-	margin-left:15px;
 	justify-content: space-between;
 }
 /*section activité*/
 #activités{
 	display:flex;
 	flex-direction: column;
-	height: 800PX;
-	width: 100%;
-	margin-top:30px;	
+	min-width: 360px;
+
+	
+	
+	
 }
 
-#activités h2{
+#activités>h2{
 	margin-left:20px;
 	font-size: 2rem;
 }
@@ -350,14 +491,27 @@ h3{
 #conteneur-activités{	
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+
+
 	
+}
+
+.grande-image{
+	width:23%;
+	min-width: 350px;
+
+	
+
+
 }
 
 .petite-image{
 	display:flex;
 	flex-direction:column;
 	justify-content: space-between;
-	width:23%;
+	width:23%;min-width: 350px;
+	border:solid red;
 }
 
 .photo2{
@@ -366,23 +520,27 @@ h3{
 	flex-direction:column;
 	border-radius: 20PX;
 	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%)
+
 }
 
 .photo1{
-	width:23%;
+	
 	transition: transform .4s;
 	border-radius: 20PX;
 	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%)
+	
 
 }
 
 .photo1 img{	
 	border-radius:20PX 20PX 0 0;	
-	height: 50VH;	    
+	height: 55VH;
+	object-fit: cover;	
+	width: 100%;    
 }
 
 .photo1:hover{
-	transform:scale(1.10);
+	transform:scale(1.05);
 }
 
 .photo2:hover{
@@ -392,24 +550,31 @@ h3{
 .photo2 img{
 	height: 20vh;
 	border-radius:20PX 20PX 0 0;	
+	object-fit: cover;
+	width: 100%;
 }
 
 .titre-img{	
 	margin-left: 15px;	
 }
+
+
 /*footer*/
 footer{
 	width:100%;
 	background-color: #F2F2F2;	
-    height:200PX;
+    min-width: 350px;
     display: flex;
     align-items: center;
+    margin-top: 40px;
+
 }
 
 #tout-le-contenu{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
+	
 }
 
 footer h2{	

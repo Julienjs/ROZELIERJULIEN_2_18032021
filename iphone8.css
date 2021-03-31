@@ -1,0 +1,102 @@
+
+
+/*navigation*/
+#navigation{
+font-size: 10px;
+}
+.menu-nav{									
+display: flex;
+
+}
+
+.lien2{
+
+	margin-top: 80px;
+
+
+}
+
+
+.activités{
+	width: 51%;
+	
+	border-bottom: solid #F2F2F2;
+	
+	
+}
+
+.hébergements{
+	width: 50%;
+	
+	border-bottom: solid #0065FC;
+}
+.inscription{
+	position: absolute;
+	top:20PX;
+	left: 290PX;
+	
+}
+
+.logo{
+	position: absolute;
+	top:2PX;
+}
+/*section recherche filtres*/
+
+
+#menu-filtre h2{
+	width: 100%;
+	font-size: 2px;
+}
+
+
+#formulaire{
+	margin-left: 10px;
+}
+#formulaire h1{
+	font-size: 0.9em;
+	margin:1px 0px;
+}
+
+#formulaire p{
+	font-size: 1em;
+	
+}
+#texte-information p{
+font-size: 0.5em;}
+
+
+#hébergement-populaires{
+	flex-direction: column-reverse;
+}
+#conteneur-hébergements{
+	background:white;
+}
+.partie-1{
+		flex-direction:column;
+	}
+	
+.partie-2{
+	flex-direction: column;
+}
+
+
+ aside{
+ 	margin-bottom: 10px;
+ 	border-radius: 0px;
+ }
+#conteneur-activités{
+	flex-direction: column;
+	
+}
+
+
+
+
+
+#tout-le-contenu{
+	flex-direction: column;
+}
+
+
+

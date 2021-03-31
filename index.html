@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="iphone8.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,45 +13,45 @@
 </head>
 <body>
 <!--navigation-->
-<header>
-  	<section id="titre-nav">
-       <h2><a href="#"><img class= "reservia-img" src="projet2/images/logo/Reservia.png" alt="logo-reservia"></a></h2> 
-  		   <div id="navigation"> 
-  		     <nav>				
-  				    <ul class="menu-nav">
-  					      <li class="menu lien Hébergements"><a href="#Hébergements-ancre">Hébergements</a></li>
-  					      <li class="menu lien Activités"><a href="#Activités-ancre">Activités</a></li> 
-                  <li class="menu inscription"><a href="#" >S'inscrire</a></li>
-  				    </ul> 
-  			   </nav>
-  			 </div>
-  	</section> 
+<div id="bloc-page">
+<header> 
+  <a href="#" class="logo"><img class= "reservia-img" src="projet2/images/logo/Reservia.png" alt="logo-reservia"></a>
+   		   <div id="navigation">
+               
+  		          <nav>	
+                  	
+  				          <ul class="menu-nav">
+  					           <li class="lien hébergements lien2"><a href="#Hébergements-ancre">Hébergements</a></li>
+  					           <li class="lien activités lien2"><a href="#Activités-ancre">Activités</a></li> 
+                       
+  				         </ul> 
+  			        </nav>
+                <li class="inscription "><a href="#" >S'inscrire</a></li>
+  			 </div> 
 <!--barre de recherche--> 	
-    <section id="formulaire-recherche">
+      <section id="recherche-filtres"> 
+      <div id="formulaire">  
   		  <h1 >Trouvez votre hébergement pour des vacances de rêve</h1>
   		     <p>En plein centre ville ou en pleine nature</p>
-  	           <div id="formulaire">
   		            <form method="post" action="#">
-  				         <p class= "formulaire">
   					          <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
   					          <input  type="search" name="recherche"  id="recherche" placeholder ="Marseille,France">
-  					          <input class= "bouton" type="submit" name="recherche" value="Rechercher">
-  				         </p>
+                       <button type="submit" class="loupe"></button>
   		           </form>
-  		     </div>
-    </section>
+      </div> 		     
 <!--les filtres-->
-  	<section id="section-filtres">  	   
+
+     
   	   <div id="menu-filtre">
            <h2>Filtres</h2>
              <a href="#">
-  		          <div class="filtres">
+  		          <div class="filtres flexshrink">
   		          <i class="fas fa-money-bill-wave"></i>
                 <p class="thèmes">Économique</p>
   		          </div>  
              </a> 
              <a href="#">
-  		          <div class="filtres">
+  		          <div class="filtres flexshrink">
   		            <i class="fas fa-child"></i>
                   <p class="thèmes">Familial</p>
   		          </div>
@@ -85,7 +87,7 @@
               <a href="#">
                 <img src="projet2/images/hebergements/img-recadrer/auberge-la-cannebière-recadrer.jpg" alt="auberge-la-cannebière">
                 <h2>Auberge la cannebière</h2>
-                <p>Nuit à partir de <span>25&euro;</span></p>             
+                <p>Nuit à partir de <span>25&euro;</span></p>   
                 <i class="fa fa-star bleu" aria-hidden="true"></i>
                 <i class="fa fa-star bleu" aria-hidden="true"></i>
                 <i class="fa fa-star bleu" aria-hidden="true"></i>
@@ -158,12 +160,12 @@
         <H3>Afficher plus</H3>
       </div>
 <!--section populaire-->
-      <div id="aside">       
+      <aside>       
         <H2>Les plus populaires<i class="fas fa-chart-line"></i></H2>
-          <div id="populaires">
+         
             <a href="#"> 
-              <div class="présentation">
-                  <img src="projet2/images/hebergements/img-recadrer/Hôtel-le-soleil-matin-recadrer.jpg" alt="Hôtel-le-soleil-matin">
+              <article class="présentation">
+                  <img src="projet2/images/hebergements/small/Hôtel-le-soleil-matin-small.jpg" alt="Hôtel-le-soleil-matin">
                     <div class="description">
                         <h2>Hôtel le soleil du<br>matin</h2>
                         <p>Nuit à partir de 128<span>&euro;</span></p>
@@ -174,12 +176,12 @@
                         <i class="fa fa-star bleu" aria-hidden="true"></i>
                         <i class="fa fa-star bleu" aria-hidden="true"></i>
                       </p>           
-                    </div>
               </div>
+              </article>
             </a>
             <a href="#">
-              <div class="présentation">
-                  <img src="projet2/images/hebergements/img-recadrer/au-coeur-de-l'eau-chambres-d'hotes-recadrer.jpg" alt="au-coeur-de-l'eau-chambres-d'hotes">
+             <article class="présentation">
+                  <img src="projet2/images/hebergements/small/au-coeur-de-l'eau-chambres-d'hotes-small.jpg" alt="au-coeur-de-l'eau-chambres-d'hotes">
                     <div class="description">
                       <h2>Au coeur de l'eau<br>Chambres d'hôtes</h2>
                       <p>Nuit à partir de 71<span>&euro;</span></p>
@@ -191,11 +193,11 @@
                       <i class="fa fa-star gris" aria-hidden="true"></i>
                      </p>
                     </div>
-              </div>
+              </article>
             </a>
             <a href="#">
-              <div class="présentation">
-                  <img src="projet2/images/hebergements/img-recadrer/hôtel-tout-bleu-et-blanc-recadrer.jpg" alt="hôtel-tout-bleu-et-blanc">
+              <article class="présentation">
+                  <img src="projet2/images/hebergements/small/hôtel-tout-bleu-et-blanc-small.jpg" alt="hôtel-tout-bleu-et-blanc">
                     <div class="description">
                       <h2>Hôtel tout bleu et<br>Blanc</h2>
                       <p>Nuit à partir de 68<span>&euro;</span></p>
@@ -207,21 +209,22 @@
                       <i class="fa fa-star gris" aria-hidden="true"></i>
                     </p>
                     </div>
-              </div> 
+              </article> 
             </a>
-          </div>
-      </div>
+      </aside>
    </section>
       <!--section activités-->
    <section id="activités">
           <h2 id="Activités-ancre">Activités à Marseille</h2>
         <div id="conteneur-activités">
+          <div class="grande-image ">
               <div class="photo1">
                 <a href="#">
                     <img src="projet2/images/activites/xlarge/vieux-port-xlarge.jpg" alt="vieux-port">
-                  <div class="titre-img">
+                  <div class="titre-img ">
                         <h2>Vieux Port</h2>
                   </div>
+                </div>
                 </a>
               </div>
           <div class="petite-image">
@@ -242,12 +245,14 @@
                 </a>
               </div>
           </div>
+          <div class="grande-image">
           <div class="photo1">
                 <a href="#">
                     <img src="projet2/images/activites/xlarge/parc-national-large.jpg" alt="parc-national-des-calanques">
               <div class="titre-img">
                       <h2>Parc National des Calanques</h2>
               </div>
+            </div>
                 </a>
           </div>
           <div class="petite-image">
@@ -298,5 +303,6 @@
         </div>
     </div>
   </footer>
+  </div>
 </body>
 </html>
