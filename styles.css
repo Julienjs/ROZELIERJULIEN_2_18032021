@@ -6,11 +6,6 @@ body{
 	font-family:'Raleway', sans-serif;
 	box-sizing: border-box;
     font-size: 16px;
-    word-wrap: break-word;
-}
-
-html{
-	font-size: 60%
 }
 
 a {
@@ -23,11 +18,13 @@ li  {
 }
  
 header{
-	margin: 0 40px;
+	margin:auto;
+	max-width: 1800px;
 }
 
 main{
-	margin: 0 30px;
+	margin:auto;
+	max-width:1800px;
 }
 
 span{
@@ -35,29 +32,28 @@ span{
 } 
 
 /*navigation*/
-
-.reservia-img{		
-	position: absolute;
-	top: 15PX;
-	width:10%;	
-}
-
 #navigation {
 	font-size: 1em;	
-	justify-content: flex-end;
 	display: flex;
+	justify-content: space-between;
 	margin-top: 20px;
 }
 
+.reservia-img{		
+	width: 40%;	
+}
+
 nav {
-	width: 20%;	
+	width: 70%;	
 	display: flex;
-	justify-content:space-between;
+	justify-content:flex-end;
 }
 
 .menu-nav {
 	display: flex;
-	width:100%;	
+	width:30%;
+	margin-right: 20px;
+	justify-content: space-between;	
 }
 
 .lien{
@@ -67,7 +63,7 @@ nav {
 	color: #0065FC;
     height: 50px;
 	padding-top: 10px;
-	margin-right: 20PX;
+	
 }	
 	
 .hébergements{
@@ -196,11 +192,13 @@ form :hover {
 }
 
 .filtres{
-	border: solid  4px #F2F2F2;
+	border: solid  2px #F2F2F2;
 	border-left:0px;
 	display: flex;
 	align-items: center;
 	border-radius:50px;
+	width: auto;
+	min-width: 100px;
 	height:70px;
 	padding-right:20px;	
 	margin: auto;
@@ -253,8 +251,10 @@ form :hover {
 
 #hébergement-populaires{
 	width: 100%;
+	max-width: 3500px;
+	min-width: 300px;
 	display:flex;
-	justify-content: space-around; 	  		
+	justify-content: space-between; 	  		
 }
 
 
@@ -268,12 +268,13 @@ form :hover {
 
 /*hébergements*/
 
-#conteneur-hébergements{	
+#conteneur-hébergements{
 	display: flex;
 	flex-direction: column;
 	border-radius:20PX;
 	background-color:#F2F2F2;
 	width: 70%;
+	
 
 
 }
@@ -285,7 +286,7 @@ form :hover {
 
 .partie-1{
 	display: flex;
-	justify-content: space-around;	
+	justify-content: space-around;
 }
 
 .partie-2{
@@ -294,9 +295,10 @@ form :hover {
 }
 
 .présentation-1{
-    border:solid red;
-    width: 20%;
-	height:85%;
+    width: 25%;
+    max-width: 400px;
+    min-width: 200px;
+	height:80%;
 	padding: 10px;
 	background-color: white;
 	border-radius: 30PX; 	
@@ -305,20 +307,22 @@ form :hover {
     transition: transform .4s;
 }
 
-.description-1{border:solid black;
+.description-1{
 	margin-left: 10px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	height: 120px;
+	height: 130px;
+	max-width: 400px;
+    min-width: 100px;
 }
 
 .description-1 h2{
-	margin: 0;
+	margin: 0 0 10px 0;
 }
 
 .description-1 p{
-	margin: 0;
+	margin: 0 0 10px 0;
+	font-size: 0.8em;
 }
 
 .présentation-1:hover{
@@ -352,12 +356,12 @@ aside{
 	padding-left: 70px;
 	width: 25%;
 	background-color:#F2F2F2;	
-	flex-wrap: wrap;
 }
 
 aside>h2{
 	font-size: 2em;	
-	width: 80%;
+	width: 90%;
+	margin-bottom: 0px;
 	display:flex;
 	justify-content: space-between;
 }
@@ -370,41 +374,45 @@ aside>h2{
 	padding:10px;
 	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
 	height:180px;
-	width: 80%;	
+	width: 85%;
+	max-width: 1000px;
+	min-width: 50px;	
 }
 
 .présentation-2:hover{
 	transform:scale(1.10);
 }
 
-.description-2{border:solid black;
+.description-2{
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	width: 50%;
-	height: 95%;
+	width: 70%;
+	max-width:200PX;
+	min-width: 50px;
+	height: 100%;
     margin-left: 10PX;			
 }
 
 .description-2 h2{
 	width: 100%;
+	max-width: 1000PX;
+	min-width: 50px;
 	margin: 0;
-	border:solid red;
-	font-size-adjust: 0.70EM;
-	
+	font-size: 1.3em;
 }
 
 .description-2 p{
 	width: 100%;
-	height: 10%;
-	border:solid green;
+	min-width: 50PX;
 	margin: 0;
-	font-size: 0.6em;
-
+	font-size: 0.8em;
 }
 
 .présentation-2 img{
 	width:150px;
+	max-width: 150px;
+	min-width: 50px;
 	box-sizing: border-box;
 	object-fit: cover;
 	border-radius:20px 0 0 20px;
@@ -509,7 +517,12 @@ footer ul li a:hover{
 .conteneur-footer ul{
 	flex-direction: column;
 	width: auto;
+	height: 100px;
 	padding: 0;	
+}
+
+.conteneur-footer li{
+	margin-bottom: 10px;
 }
 
 

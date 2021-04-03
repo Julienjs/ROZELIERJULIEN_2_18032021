@@ -1,23 +1,28 @@
 header{
-	margin: 0;
+	margin: 0 auto;
+
 }
 
 main{
-	margin: 0;
+	margin: 0 auto;
 }
 
 /*navigation*/
 
 .reservia-img{
-	width: 20%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 30%;
 }
 #navigation{
 	width: 100%;
 	margin-bottom: 10px;
 } 
 
-.menu-nav{	
-	padding: 0;								
+.menu-nav{
+	padding: 0;
+    margin: 0;								
 	width: 100%;
 }
 
@@ -100,8 +105,8 @@ input{
 }
 
 ::placeholder{
-	font-size: 1.3em;
-	text-align: left;
+	padding-left: 10px;
+	font-size: 1.1em;
 	width: 70%;
 }
 /*les filtres*/
@@ -146,8 +151,8 @@ input{
 /*section populaire*/
 
 aside{
-	width:95%;
-	height: 800PX;
+    width: 95%;
+	height: 900PX;
 	border-radius: 0px;
 	padding-left: 15px;
 	margin-bottom: 20px;
@@ -162,7 +167,7 @@ aside>h2{
 
 .présentation-2{
  	margin: auto;
- 	width:350px;
+ 	width:300px;
  	font-size: 1em;
 }
 
@@ -199,13 +204,9 @@ aside>h2{
 }
 
 .présentation-1{
-	width:350px;
+	width:300px;
 	height: 230px;
 	font-size: 1em;
-}
-
-.présentation-1 img{
-	width: 350px;
 }
 
 .présentation-1 h2{
@@ -270,7 +271,7 @@ aside>h2{
 
 #tout-le-contenu{
 	flex-direction: column;
-	height: 400px;
+	height: 450px;
 	margin:0;
 	width: 100%;
 }
@@ -279,12 +280,9 @@ aside>h2{
 	width: 90%;
 }
 
-.conteneur-footer ul{
-	justify-content: flex-start;
-}
 
 footer{
-	height: 400px;
+	height: 480px;
 	margin-top:30px;
 	font-size: 0.7em;
 

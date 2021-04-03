@@ -1,9 +1,9 @@
 
 header{
-	margin: 0;
+	margin: 0 auto;
 }
 main{
-	margin:0;
+	margin:0 auto;
 }
 
 br{
@@ -17,21 +17,22 @@ br{
 /*navigation*/
 
 .reservia-img{
-	width: 15%;
+	width: 40%;
 	margin-left: 15px;
 }
 
 .menu-nav{
+	width: 100%;
 	margin-top: 5px;
 	margin-bottom: 0;
 }
 nav{
-	width: 60%;
+	width: 100%;
 	font-size: 1em;
 }
 
 .inscription{
-	margin:0 40px 0 0;
+	margin:15px 40px 0 0;
 	font-size: 1em;
 }
 
