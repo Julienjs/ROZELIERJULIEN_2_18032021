@@ -136,7 +136,7 @@ input{
 
 #texte-information i{	
 	margin-bottom: 15px;
-	width: 20px;	
+	width: 25px;	
 	height: 20px;
 }
 
@@ -156,7 +156,6 @@ aside{
 	border-radius: 0px;
 	padding-left: 15px;
 	margin-bottom: 20px;
-	padding: 0;
 }
 
 aside>h2{
@@ -195,8 +194,8 @@ aside>h2{
 
 .partie-1{
 	flex-direction:column;
-	margin: auto;
-}
+    margin: auto;
+ }
 	
 .partie-2{
 	flex-direction: column;
@@ -271,7 +270,7 @@ aside>h2{
 
 #tout-le-contenu{
 	flex-direction: column;
-	height: 450px;
+	height: 130px;
 	margin:0;
 	width: 100%;
 }
