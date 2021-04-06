@@ -27,9 +27,6 @@ main{
 	max-width:1350px;
 }
 
-span{
-	font-weight: bold;
-} 
 
 /*navigation*/
 #navigation {
@@ -261,6 +258,11 @@ form :hover {
 	color:#F2F2F2;
 }
 
+span{
+	font-weight: bold;
+} 
+
+
 /*hébergements*/
 
 #conteneur-hébergements{
@@ -365,7 +367,7 @@ aside>h2{
 	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
 	height:180px;
 	width: 300px;
-	margin: auto;	
+	margin: auto;
 }
 
 .présentation-2:hover{
@@ -383,18 +385,17 @@ aside>h2{
 
 .description-2 h2{
 	width: 100%;
-	margin: 0;
 	font-size: 1.3em;
 }
 
 .description-2 p{
 	width: 100%;
-	margin: 0;
+
 	font-size: 0.8em;
 }
 
 .présentation-2 img{
-	width:150px;
+	width:40%;
 	box-sizing: border-box;
 	object-fit: cover;
 	border-radius:20px 0 0 20px;

@@ -155,28 +155,26 @@ input{
 
 #hébergement-populaires{
 	flex-direction: column-reverse;
-	align-items: center;	
+		
 }
 
 /*section populaire*/
 
 aside{
-    width: 95%;
+    width: 100%;
 	height: 900PX;
 	border-radius: 0px;
-	padding-left: 15px;
 	margin-bottom: 20px;
 }
 
 aside>h2{
 	font-size: 1.5em;
-	width: 90%;
-	margin: 0 auto;
+	width: 85%;
 }
 
 .présentation-2{
  	margin: auto;
- 	width:300px;
+ 	width:75%;
  	font-size: 1em;
 }
 
@@ -220,12 +218,6 @@ aside>h2{
 
 .présentation-1 h2{
 	font-size:1.3em;
-}
-
-.description-1{
-	display: block;
-	margin: auto;
-	height: 100px;
 }
 
 .description-1 p{

@@ -1,10 +1,4 @@
 
-header{
-	margin:auto;
-}
-main{
-	margin:auto;
-}
 
 br{
 	display: none;
@@ -38,7 +32,6 @@ nav{
 
 .hébergements{	
 	padding: 0;
-	 border-top:0;
 }
 
 .inscription{
@@ -58,6 +51,7 @@ nav{
 
 #recherche-filtres{
 	width: 96%;
+	margin-top: 20px;
 }
 
 #formulaire{
