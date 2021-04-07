@@ -4,19 +4,20 @@ header{
 }
 
 main{
-	margin: 0 auto;
+	margin: 0 ;
 }
 
 /*navigation*/
 
 .reservia-img{
 	position: absolute;
-	top: 5px;
+	top: 20px;
 	left: 5px;
-	width: 30%;
+	width: 80px;
 }
+
 #navigation{
-	width: 100%;
+	width: 375px;
 	margin-bottom: 10px;
 } 
 
@@ -44,22 +45,22 @@ nav{
 }
 
 .activités{
-	width: 50%;
+	width: 200px;
 	border-bottom: solid #F2F2F2;
 	padding: 0;	
 }
 
 .hébergements{	
-	width: 50%;
+	width: 200px;
 	border-bottom: solid #0065FC;
 	border-top: none;
 	padding: 0;
 }
 
 .inscription{
-	position: absolute;
-	top:25px;
-	right: 10PX;
+	position: relative;
+	bottom:55px;
+	right: 70PX;
 	font-size:1em;	
 	margin: 0;
 }
@@ -67,7 +68,7 @@ nav{
 /*section formulaire filtres*/
 
 #recherche-filtres{
-	width: 95%;
+	width: 375px;
 	margin: 0 10px 20px 10px;
 }
 
@@ -154,17 +155,16 @@ input{
 /*hébergements-populaires*/
 
 #hébergement-populaires{
-	flex-direction: column-reverse;
-		
+	flex-direction: column-reverse;		
 }
 
 /*section populaire*/
 
 aside{
-    width: 100%;
+    width: 385px;
 	height: 900PX;
 	border-radius: 0px;
-	margin-bottom: 20px;
+	margin: 0 auto 20px auto;
 }
 
 aside>h2{
@@ -173,20 +173,20 @@ aside>h2{
 }
 
 .présentation-2{
- 	margin: auto;
  	width:75%;
  	font-size: 1em;
 }
 
  .description-2 h2{
 	font-size:1.3em;
+	margin: 0;
 }
 
 /*hébergements*/
 
 #conteneur-hébergements{
 	background-color:white;
-	width: 95%;
+	width: 385px;
 	margin:auto;
 }
 
@@ -202,18 +202,20 @@ aside>h2{
 
 .partie-1{
 	flex-direction:column;
-    margin: auto;
+    height: 800px;
  }
 	
 .partie-2{
 	flex-direction: column;
-	margin: auto;
-}
+	height: 800px;
+}	
 
 .présentation-1{
-	width:300px;
-	height: 230px;
+	width:75%;
+	height:230px;
 	font-size: 1em;
+	margin: auto;
+
 }
 
 .présentation-1 h2{
@@ -227,13 +229,15 @@ aside>h2{
 /*section activité*/
 
 #activités{
+	width: 385px;
 	margin: 20px auto;
 	height: 1600px;
 }
 
 #conteneur-activités{
 	flex-direction: column;
-	width: 90%;	height: 1540px;
+	width: 90%;	
+	height: 1540px;
 	margin: auto;	
 }
 
