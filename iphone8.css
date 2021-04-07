@@ -1,24 +1,20 @@
-header{
-	margin: 0 auto;
-
-}
-
-main{
-	margin: 0 ;
-}
 
 /*navigation*/
 
 .reservia-img{
-	position: absolute;
-	top: 20px;
+	position: relative;
+	top: 10px;
 	left: 5px;
 	width: 80px;
 }
 
+#navigation a{
+	position: absolute;
+}
+
 #navigation{
 	width: 375px;
-	margin-bottom: 10px;
+	margin:0 auto;
 } 
 
 .menu-nav{
@@ -59,8 +55,8 @@ nav{
 
 .inscription{
 	position: relative;
-	bottom:55px;
-	right: 70PX;
+	bottom:35px;
+	right: 35PX;
 	font-size:1em;	
 	margin: 0;
 }
@@ -69,7 +65,7 @@ nav{
 
 #recherche-filtres{
 	width: 375px;
-	margin: 0 10px 20px 10px;
+	margin: 0 auto;
 }
 
 /*formulaire*/
@@ -80,7 +76,7 @@ nav{
 
 #formulaire h1{
 	font-size:1.7em;
-	margin:0 0 0 10px;
+	margin:10px 0 0 10px;
 }
 
 #formulaire p{
@@ -287,8 +283,9 @@ aside>h2{
 
 
 footer{
+	width: 385px;
 	height: 480px;
-	margin-top:30px;
+	margin:30px auto 0 auto;
 	font-size: 0.7em;
 
 	
