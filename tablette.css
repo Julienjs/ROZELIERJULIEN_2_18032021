@@ -47,6 +47,10 @@ nav{
       padding-top:0;
 }
 
+nav ul li a:hover{
+	 color:black;
+}
+
 /*formulaire*/
 
 #recherche-filtres{
