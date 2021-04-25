@@ -61,6 +61,7 @@ nav {
 	padding-top: 10px;
 	
 }	
+
 	
 .hébergements{
 	width: 50%;
@@ -81,7 +82,7 @@ nav {
 	font-weight:600;   
 }
 
-.inscription a:visited{
+.inscription :visited{
 	color: #0065FC;
 }
 
