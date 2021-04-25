@@ -81,7 +81,7 @@ nav {
 	font-weight:600;   
 }
 
-.inscription :visited{
+.inscription a:visited{
 	color: #0065FC;
 }
 
