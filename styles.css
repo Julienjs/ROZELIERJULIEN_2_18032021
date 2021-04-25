@@ -79,10 +79,10 @@ nav {
 	justify-content: center;
 	align-items: center;
 	color: #0065FC;
-	font-weight:600;   
+	   
 }
 
-.inscription :visited{
+.inscription a{
 	color: #0065FC;
 }
 
@@ -92,9 +92,7 @@ nav {
       padding-top: 5px;
 }
 
-nav ul li a:hover{
-	 color:#0065FC;
-}
+
 
 
 /*section formulaire filtres*/
