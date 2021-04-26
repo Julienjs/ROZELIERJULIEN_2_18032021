@@ -40,7 +40,7 @@ nav{
 }
 
 nav ul li a:hover{
-	color: black;
+	color: #0065FC;	
 }
 
 .activités{
@@ -78,7 +78,7 @@ nav ul li a:hover{
 }
 
 #formulaire h1{
-	font-size:1.7em;
+	font-size:1.5em;
 	margin:10px 0 0 10px;
 }
 
@@ -123,11 +123,12 @@ input{
 #menu-filtre{
 	height: 350px;
 	width: 95%;
+	margin-left: 10px;
 }
 
 #menu-filtre h2{
     width: 100%;	
-	font-size:1.5em;
+	font-size:1.2em;
 }
 
 .filtres{
@@ -140,6 +141,10 @@ input{
 	width: 50px;
 }
 /*information*/
+#texte-information{
+	margin-left: 10px;
+	width: 95%;
+}
 #texte-information p{
 	font-size: 1em;
 }
@@ -161,23 +166,24 @@ input{
 
 aside{
     width: 375px;
-	height: 900PX;
+	height: 700PX;
 	border-radius: 0px;
 	margin: 0 auto 20px auto;
 }
 
 aside>h2{
-	font-size: 1.5em;
+	font-size: 1.3em;
 	width: 85%;
 }
 
 .présentation-2{
- 	width:75%;
+ 	width:80%;
+ 	height: 150px;
  	font-size: 1em;
 }
 
  .description-2 h2{
-	font-size:1.3em;
+	font-size:1em;
 	margin: 0;
 }
 
@@ -185,18 +191,19 @@ aside>h2{
 
 #conteneur-hébergements{
 	background-color:white;
-	width: 375px;
+	width: 100%;
+	height: 
 	margin:auto;
 }
 
 #conteneur-hébergements>h2{
-	font-size:1.5em;
+	font-size:1.3em;
 	margin: 0 auto 20px 15px;
 }
 
 #conteneur-hébergements>h3{
 	margin: 0 0 0 15px;
-	font-size:1.5em;
+	font-size:1.2em;
 }
 
 .partie-1{
@@ -210,19 +217,25 @@ aside>h2{
 }	
 
 .présentation-1{
-	width:75%;
-	height:230px;
+	width:80%;
+	height:180px;
 	font-size: 1em;
 	margin: auto;
 
 }
 
+.présentation-1 img{
+	height: 110px;
+}
+
 .présentation-1 h2{
-	font-size:1.3em;
+	font-size:1em;
+	margin-bottom: 8px;
 }
 
 .description-1 p{
 	margin:0 0 3px 0;
+	margin-bottom: 8px;
 }
 
 /*section activité*/
@@ -248,7 +261,8 @@ aside>h2{
 
 .grde-carte{
 	width:100%;
-	height: 230px;
+	height: 230px;	
+	font-size: 0.8em;
 }
 
 .grde-carte img{
@@ -259,6 +273,7 @@ aside>h2{
 	height: 515px;
 	width: 100%;
 	justify-content: space-around;	
+	font-size: 0.8em;
 }
 
 .petite-carte img{

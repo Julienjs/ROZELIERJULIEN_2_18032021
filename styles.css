@@ -108,7 +108,7 @@ nav {
 
 #formulaire h1 {
 	width:100%;
-	font-size:2.5em;	
+	font-size:2em;	
 }
 
 #formulaire {
@@ -187,7 +187,7 @@ form :hover {
 	align-items: center;
 	border-radius:50px;
 	width: auto;
-	height:70px;
+	height:50px;
 	padding-right:20px;	
 	margin: auto;
 	transition: transform .1s;	
@@ -200,8 +200,8 @@ form :hover {
 	align-items: center;
 	border: solid #deebff;
 	border-radius:50%;
-	width:70px;
-	height: 70px;
+	width:50px;
+	height: 50px;
 	color: #0065FC;
 	background-color: #deebff;
 }
@@ -292,7 +292,7 @@ span{
 	border-radius: 30PX; 	
 	margin-bottom: 30px;
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
-    transition: transform .4s;  
+    transition: transform .4s; 
 }
 
 .description-1{
@@ -303,7 +303,8 @@ span{
 
 .description-1 h2{
 	margin:0;
-	font-size: 1.3em;
+	font-size: 1.2em;
+	
 }
 
 .description-1 p{
@@ -379,7 +380,7 @@ aside>h2{
 
 .description-2 h2{
 	width: 100%;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 .description-2 p{
@@ -397,12 +398,12 @@ aside>h2{
 /*section activité*/
 #activités{
 	display:flex;
-	flex-direction: column;	
+	flex-direction: column;	 
 }
 
 #activités>h2{
 	margin-left:20px;
-	font-size: 2vh;
+	font-size: 2em;
 }
 
 #conteneur-activités{	
@@ -422,7 +423,7 @@ aside>h2{
 	border-radius:20PX 20PX 0 0;	
 	height: 550px;
 	object-fit: cover;	
-	width: 100%;    
+	width: 100%;  
 }
 
 .grde-carte:hover{
