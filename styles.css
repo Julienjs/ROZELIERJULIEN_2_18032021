@@ -108,7 +108,7 @@ nav {
 
 #formulaire h1 {
 	width:100%;
-	font-size:2em;	
+	font-size:1.5em;	
 }
 
 #formulaire {
@@ -177,7 +177,7 @@ form :hover {
 
 #menu-filtre h2{
 	margin:auto 0;
-	font-size: 2em;
+	font-size: 1.3em;
 }
 
 .filtres{
@@ -269,7 +269,7 @@ span{
 
 #conteneur-hébergements>h2{
 	margin: 40px 0 40px 60px;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .partie-1{
@@ -325,7 +325,7 @@ span{
 
 #conteneur-hébergements h3{
 	margin: 0 0 20px 60px;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 h3:hover{
@@ -345,7 +345,7 @@ aside{
 }
 
 aside>h2{
-	font-size: 2em;	
+	font-size: 1.5em;	
 	width: 85%;
 	margin:0 auto;
 	margin-bottom: 0px;
@@ -403,7 +403,7 @@ aside>h2{
 
 #activités>h2{
 	margin-left:20px;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #conteneur-activités{	
@@ -416,7 +416,8 @@ aside>h2{
 	width:23%;
 	transition: transform .4s;
 	border-radius: 20PX;
-	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%)	
+	box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+	font-size:0.8em;	
 }
 
 .grde-carte img{	
@@ -435,6 +436,7 @@ aside>h2{
 	flex-direction:column;
 	justify-content: space-between;
 	width:23%;
+	font-size:0.8em;
 }
 
 .petite-image{
@@ -471,7 +473,7 @@ footer{
 
 footer h2{	
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 footer ul li a:hover{
@@ -499,6 +501,7 @@ footer ul li a:hover{
 
 .conteneur-footer li{
 	margin-bottom: 10px;
+	font-size: 0.7em;
 }
 
 
