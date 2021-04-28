@@ -132,13 +132,13 @@ label{
 	color: black;
 	width:4%;
 	min-width: 60px;
-	font-size: 1.5em; 	
+	font-size: 1.2em; 	
 }
 
 input{
 	border:solid 1px #F2F2F2;
 	width:30%;
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 ::placeholder{
@@ -157,7 +157,7 @@ form :hover {
 	border-radius: 0 10px 10px 0;
 	border-style: none;
 	width:20%;
-	font-size: 1em;	
+	font-size: 0.8em;	
 }
 
 .recherche i{
@@ -195,6 +195,7 @@ form :hover {
 }
 
  .filtres i {
+ 	margin-right: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
